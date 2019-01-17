@@ -13,6 +13,7 @@
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
 #include <iostream>
+#include "penis.h"
 
 using namespace std;
 using namespace cv;
