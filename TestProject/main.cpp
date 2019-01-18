@@ -96,7 +96,7 @@ void mouseHandler(int event, int x, int y, int, void*)
 
 int main(int argc, char **argv)
 {
-    CommandLineParser parser(argc, argv, "{@input | lena.jpg | input image}");
+    CommandLineParser parser(argc, argv, "{@input | ../smug.png | input image}");
     parser.about("This program demonstrates using mouse events\n");
     parser.printMessage();
     cout << "\n\tleft mouse button - set a point to create mask shape\n"
